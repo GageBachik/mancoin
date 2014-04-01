@@ -1,0 +1,8 @@
+obj/version.o: version.cpp \
+  /Users/beamer30/Desktop/MandarinCoin/src/version.h \
+  /Users/beamer30/Desktop/MandarinCoin/src/clientversion.h \
+  /Users/beamer30/Desktop/MandarinCoin/src/obj/build.h
+version.cpp :
+  /Users/beamer30/Desktop/MandarinCoin/src/version.h :
+  /Users/beamer30/Desktop/MandarinCoin/src/clientversion.h :
+  /Users/beamer30/Desktop/MandarinCoin/src/obj/build.h :
