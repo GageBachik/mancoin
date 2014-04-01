@@ -1085,7 +1085,7 @@ int static generateMTRandom(unsigned int s, int range)
  */
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
-        int64 nSubsidy = 1000 * COIN;
+        int64 nSubsidy = 1785 * COIN;
 
         std::string cseed_str = prevHash.ToString().substr(7,7);
         const char* cseed = cseed_str.c_str();
@@ -2987,7 +2987,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "ICanHazKitteh at epoch 1387779684. MAN. Now pet me.";
+        const char* pszTimestamp = "MandarinCoin...Bitches.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2999,13 +2999,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1387779684;
+        block.nTime    = 1396380787;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2714385;
 
         if (fTestNet)
         {
-            block.nTime    = 1387779622;
+            block.nTime    = 1396380787;
             block.nNonce   = 8069;
         }
 

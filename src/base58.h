@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 45, // MandarinCoin addresses start with k
+        PUBKEY_ADDRESS = 20, // MandarinCoin addresses start with M
         SCRIPT_ADDRESS = 22,
         PUBKEY_ADDRESS_TEST = 108,
         SCRIPT_ADDRESS_TEST = 196,
